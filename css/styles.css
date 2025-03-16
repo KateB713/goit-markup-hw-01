@@ -107,10 +107,11 @@ button {
 /* ---------------team---------------- */
 
 .team {
-    background: #F4F4FD;
+    background: #FFFFFF;
 }
 
 .team-headind {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     /* line-height: 40px; */
