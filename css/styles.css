@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -107,7 +109,7 @@ button {
 /* ---------------team---------------- */
 
 .team {
-    background: #FFFFFF;
+    background: #F4F4FD;
 }
 
 .team-headind {
@@ -119,6 +121,10 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+}
+
+.team-item {
+    background-color: #FFFFFF
 }
 
 .team-image {}
@@ -155,14 +161,14 @@ button {
     font-weight: 700;
     font-size: 18px;
     /* line-height: 21px; */
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #4D5AE5;
 }
 
 .footer-logo-color {
-    color: #4D5AE5;
+    color: #F4F4FD;
 }
 
 .footer-text {
