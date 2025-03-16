@@ -12,7 +12,7 @@ a {
 /* ------------header----------- */
 
 .header-logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -52,6 +52,10 @@ a {
 
 /* ---------------features---------------- */
 
+.features {
+    background-color: #FFFFFF;
+}
+
 .features-item {}
 
 .features-subtitle {
@@ -76,7 +80,9 @@ a {
 
 /* ---------------team---------------- */
 
-.team {}
+.team {
+    background: #F4F4FD;
+}
 
 .team-headind {
     font-weight: 700;
@@ -113,10 +119,12 @@ a {
 /* --------team end--------- */
 
 /* ------footer---------*/
-.footer {}
+.footer {
+    background-color: #2E2F42;
+}
 
 .footer-logo {
-    font-family: "Raleway"
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     /* line-height: 21px; */
