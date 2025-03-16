@@ -1,0 +1,141 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* ------------header----------- */
+
+.header-logo {
+    font-family: "Raleway";
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    color: #2E2F42;
+}
+
+.header-logo-color {
+    color: #4D5AE5;
+}
+
+/* ---------------header---------------- */
+
+/* --------------hero--------------- */
+.hero {}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    /* line-height: 60px; */
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+/* ---------------hero end---------------- */
+
+/* ---------------features---------------- */
+
+.features-item {}
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.features-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ---------------features end---------------- */
+
+/* ---------------team---------------- */
+
+.team {}
+
+.team-headind {
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 40px; */
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-image {}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-subtitle-list {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/* --------team end--------- */
+
+/* ------footer---------*/
+.footer {}
+
+.footer-logo {
+    font-family: "Raleway"
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 21px; */
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-logo-color {
+    color: #4D5AE5;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+/*----footer----*/
