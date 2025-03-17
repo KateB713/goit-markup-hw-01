@@ -55,8 +55,8 @@ button {
     color: #434455;
 }
 
-.header-menu-address-link:hover,
-.header-menu-address-link:focus {
+.header-menu-item-link:hover,
+.header-menu-item-link:focus {
     color: #404bbf;
 } 
 /* ---------------header---------------- */
