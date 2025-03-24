@@ -56,8 +56,8 @@ img {
 /* ------------header----------- */
 
 .header {
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -187,7 +187,8 @@ img {
 
 .features {
     background-color: #FFFFFF;
-        }
+    padding: 120px 0;
+}
 
 .features-list {
     padding-top: 120px;
