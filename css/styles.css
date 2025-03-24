@@ -29,6 +29,10 @@ h6 {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -58,6 +62,7 @@ h6 {
 
 .header-navigation {
     display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -192,7 +197,7 @@ h6 {
 }
 
 .features-item {
-    flex-basis: calc((100%-(24*3)) / 4);
+    flex-basis: calc((100%-72px) / 4);
 }
 
 .features-subtitle {
@@ -268,6 +273,7 @@ h6 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .team-subtitle-list {
@@ -312,11 +318,8 @@ h6 {
 .portfolio-image {}
 
 .portfolio-card-box {
-    border-bottom: 1px solid #E7E9FC;
-    border-left: 1px solid #E7E9FC;
-    border-right: 1px solid #E7E9FC;
-    width:360px;
-    
+    border: 1px solid #e7e9fc;
+    width: 360px;
 }
 
 .portfolio-box{
@@ -330,6 +333,7 @@ h6 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px
 }
 
 .portfolio-text {
@@ -360,6 +364,7 @@ h6 {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-logo-color {
