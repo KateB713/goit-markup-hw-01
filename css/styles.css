@@ -94,7 +94,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
+    }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -114,10 +114,11 @@ img {
 .header-menu-address-item {
     font-style: normal;
     margin-left: auto;
+    padding: 24px 0;
 }
 
 .header-address {
-    padding: 24px 0;
+    
     font-style: normal;
 }
 
@@ -129,7 +130,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-   }
+     }
 
 .header-menu-address-link:hover,
 .header-menu-address-link:focus {
