@@ -325,18 +325,17 @@ img {
     row-gap: 48px;
 }
 
-.portfolio-image {
-        border-top: none;
-}
+.portfolio-image {}
 
 .portfolio-card-box {
     border: 1px solid #e7e9fc;
     width: 360px;
-}
+ }
 
 .portfolio-box{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-subtitle {
