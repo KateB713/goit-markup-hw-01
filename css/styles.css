@@ -302,6 +302,10 @@ img {
     padding-bottom: 120px;
 }
 
+.portfolio .container {
+    border-top: none;
+}
+
 .portfolio-title {
     text-transform: capitalize;
     font-weight: 700;
