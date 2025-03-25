@@ -303,7 +303,7 @@ img {
 }
 
 .portfolio .container {
-    border-top: none;
+
 }
 
 .portfolio-title {
@@ -325,7 +325,9 @@ img {
     row-gap: 48px;
 }
 
-.portfolio-image {}
+.portfolio-image {
+        border-top: none;
+}
 
 .portfolio-card-box {
     border: 1px solid #e7e9fc;
