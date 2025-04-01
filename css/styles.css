@@ -226,13 +226,6 @@ img {
     padding: 120px 0;
 }
 
-.features .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-}
-
 .features-list {
     display: flex;
     gap: 24px;
@@ -245,9 +238,13 @@ img {
 .features-soc {
     background-color: #f4f4fd;
     width: 264px;
+    height: 112px;
     border: 1px solid #8e8f99;
     border-radius: 4px;
-    padding: 24px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 
 .features-subtitle {
@@ -541,7 +538,7 @@ img {
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-    background-color: #4d5ae5;
+    background-color: #31d0aa;
     cursor: pointer;
 }
 /*-----------------footer------------------*/
