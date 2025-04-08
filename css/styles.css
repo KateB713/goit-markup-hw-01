@@ -783,10 +783,6 @@ border-color: #4D5AE5;
             fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.odal-field.email {
-    margin-bottom: 16px;
-}
-
 .modal-field.comment {
     margin-bottom: 20px;
 }
