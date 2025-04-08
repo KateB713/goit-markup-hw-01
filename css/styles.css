@@ -730,6 +730,10 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-field.comment {
+    margin-bottom: 20px;
+}
+
 .modal-textarea {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -744,7 +748,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    margin-bottom: 20px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -758,7 +761,6 @@ border-color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
     align-items: center;
     margin-bottom: 24px;
 }
@@ -785,7 +787,13 @@ border-color: #4D5AE5;
             fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-field.comment {
+    margin-bottom: 20px;
+}
 
+.modal-field.policy {
+    margin-bottom: 24px;
+}
 
 .modal-check:checked + .modal-check-text span {
     background-color: #404bbf;
