@@ -718,11 +718,9 @@ img {
 
 .modal-input-wrap {
     position: relative;
+ 
 }
 
-.modal-input-wrap-email {
-     margin-bottom: 16px;
-}
 
 .modal-icon {
     fill: #2E2F42;
@@ -793,6 +791,10 @@ border-color: #4D5AE5;
 
 .modal-field.policy {
     margin-bottom: 24px;
+}
+
+.modal-field.email {
+    margin-bottom: 16px;
 }
 
 .modal-check:checked + .modal-check-text span {
