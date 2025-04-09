@@ -747,7 +747,6 @@ img {
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 16px;
 }
 
 .modal-textarea:focus {
@@ -787,7 +786,7 @@ border-color: #4D5AE5;
 }
 
 .modal-field.comment {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .modal-field.policy {
